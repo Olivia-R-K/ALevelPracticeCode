@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args){
+        int myInt = 10;
+        double myDouble = 8.97d;
+        boolean myBoolean = true;
+        char myLetter = 'B';
+        String myString = "String";
+        String myNextString = "a";
+
+        System.out.printf("AAAAAA%s!AAA%s!AA",myString,myNextString);       //prints second item in place of %s!
+        System.out.println(myInt + myDouble);      //starts new line after printing
+        System.out.print(myBoolean);        //prints without new line
+    }
+}

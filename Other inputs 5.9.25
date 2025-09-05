@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your name:");
+        String name = scanner.nextLine();
+        System.out.println("Birth month: ");
+        String month = scanner.next();      //next word is input
+        System.out.println("Age: ");
+        int age = scanner.nextInt();        //next integer is input
+        System.out.println("Price of last item purchased: ");
+        double price = scanner.nextDouble();        //next double is input
+        System.out.println("Do you like apples: ");
+        Boolean likeApples = scanner.nextBoolean();     //next boolean is input
+
+        System.out.printf("Your name is %s." , name);
+        System.out.printf("You were born in %s." ,month);
+        System.out.printf("Your age is %d." ,age);       //%d for int
+        System.out.printf("Your last purchase was %f.", price);     //%f for float or double
+        System.out.printf("It is %b that you like apples.",likeApples); //%b for boolean
+
+
+
+    }
+}

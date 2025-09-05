@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args){
+        int x = 6;
+        int y = 3;
+        int z = x + y;      //adding
+        System.out.println(z);
+        int a = x - y;      //subtracting
+        System.out.println(a);
+        int b = x / y;      //dividing
+        System.out.println(b);
+        int c = x * y;      //multiplying
+        System.out.println(c);
+        float d = 4.672f;
+        System.out.println(Math.round(d));      //round to int
+        System.out.println(Math.floor(d));      //truncates
+
+    }
+}
